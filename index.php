@@ -6,7 +6,7 @@
     <body>
         
          <?php 
-            $connexion = "host=localhost password=benwallace03 user=samir.hanini dbname=samir_hanini_xml port=5432";
+            $connexion = "host=lamp-edu.condorcet.be password=xml55 user=samir.hanini dbname=samir_hanini_xml port=5432";
             $cnx = pg_connect($connexion);
             if($cnx){
                 print("ok");
